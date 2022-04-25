@@ -14,7 +14,7 @@ void setup()
   pinMode(PIN_LED9, OUTPUT);
   pinMode(PIN_LED8, OUTPUT);
   pinMode(PIN_TRIGER, OUTPUT);
-  pinMode(PIN_ECHO, INPUT);
+  pinMode(PIN_ECHO, INPUT); 
   
   Serial.begin(9600);
 }
